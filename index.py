@@ -4,7 +4,7 @@ def myfunction():
   x = random.randint(0,50)
   z=0
   print("In this game you will have 10 attempts to guess the random number between 0 & 50.")
-  for i in range(0,10):
+  for i in range(1,11):
     y= input("Give me a number between 0 and 50 :\n")
     if x == int(y):
        print("✅ Yaay you won")
