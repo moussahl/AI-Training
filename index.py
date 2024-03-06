@@ -6,7 +6,7 @@ def myfunction():
   z=0
   print("In this game you will have 10 attempts to guess the random number between 0 & 50.")
   while(z<10):
-    y= input("t  number between 0 and 50 :\n")
+    y= input("Give me a number between 0 and 50 :\n")
     if x == int(y):
        print("✅ Yaay you won")
        break
